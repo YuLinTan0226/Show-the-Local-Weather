@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:100');
+
+body{
+  margin-top: 100px;
+  background-color: #D5D5D5;
+  font-family: 'Kanit', sans-serif;
+  color: #6c757d;
+}
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:0;
+}
+
+.card-body{
+    padding: 0;
+}
+a {
+color: #fdf3f4;
+}
+
+a:hover {
+ color:#F3508D;
+
+}
+hr{
+    margin-top: 0.5rem;
+}
+.bottom{
+    margin-top: 70%;
+}
+.section{
+    padding-bottom: 5%;
+    line-height: 2em;
+}
+/* the right coulomn */
+.rightCol {
+    height: 700px;
+    border-radius: 20px 0 0 20px ;
+    background: linear-gradient(to bottom right, #F3508D, #f78067);
+    color: #fdf3f4;
+    padding: 5%;
+}
+#degree{
+    font-size: 120px;
+}
+.leftCol {
+    min-height: 700px;
+    color:#B3B3B3;
+    padding: 5% 5% 0 5%;
+    font-size: 20px;
+}
+
+/* the left coulomn */
+
+
+/* The icons */
+/*-------------------------------------*/
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../font/icomoon.eot?rgr0ny');
+  src:  url('../font/icomoon.eot?rgr0ny#iefix') format('embedded-opentype'),
+    url('../font/icomoon.ttf?rgr0ny') format('truetype'),
+    url('../font/icomoon.woff?rgr0ny') format('woff'),
+    url('../font/icomoon.svg?rgr0ny#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.rose{
+     color: #ea4c89;
+}
+.wi{
+  font-size: 70px;
+  padding: 3%;
+}
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: #ea4c89;
+  font-size: 70px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cloud:before {
+  content: "\e900";
+}
+.icon-cloud-wind:before {
+  content: "\e901";
+}
+.icon-raindrops:before {
+  content: "\e902";
+}
+.icon-air-sock:before {
+  content: "\e903";
+}
+
